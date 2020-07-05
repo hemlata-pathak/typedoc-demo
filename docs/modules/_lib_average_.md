@@ -14,7 +14,7 @@
 
 ▸ **getAverage**(`x`: number, `y`: number): *number*
 
-Defined in lib/average.ts:49
+*Defined in [lib/average.ts:49](https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/lib/average.ts#L49)*
 
 The summary section should be brief. On a documentation web site,
 it will be shown on a page that lists summaries for many different

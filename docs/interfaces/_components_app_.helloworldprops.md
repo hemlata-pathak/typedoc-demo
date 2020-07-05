@@ -19,7 +19,7 @@
 
 • **lang**: *string*
 
-Defined in components/App.tsx:4
+*Defined in [components/App.tsx:4](https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/components/App.tsx#L4)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **userName**: *string*
 
-Defined in components/App.tsx:3
+*Defined in [components/App.tsx:3](https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/components/App.tsx#L3)*
