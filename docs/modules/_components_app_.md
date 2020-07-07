@@ -1,4 +1,4 @@
-[tsdoc-demo](../globals.md) › ["components/App"](_components_app_.md)
+[Types Doc Demo](../globals.md) › ["components/App"](_components_app_.md)
 
 # Module: "components/App"
 
@@ -18,7 +18,7 @@
 
 ▸ **App**(`props`: [HelloWorldProps](../interfaces/_components_app_.helloworldprops.md)): *Element‹›*
 
-*Defined in [components/App.tsx:6](https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/components/App.tsx#L6)*
+*Defined in [components/App.tsx:6](https://github.com/hemlata-pathak/typedoc-demo/blob/53b49fa/src/components/App.tsx#L6)*
 
 **Parameters:**
 

@@ -1,4 +1,4 @@
-[tsdoc-demo](globals.md)
+[Types Doc Demo](globals.md)
 
-# tsdoc-demo
+# Types Doc Demo
 

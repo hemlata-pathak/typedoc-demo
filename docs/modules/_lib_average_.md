@@ -1,66 +1,91 @@
-[tsdoc-demo](../globals.md) › ["lib/average"](_lib_average_.md)
+[Types Doc Demo](../globals.md) › ["lib/average"](_lib_average_.md)
 
 # Module: "lib/average"
 
 ## Index
 
-### Functions
+### arithmetic Functions
 
 * [getAverage](_lib_average_.md#const-getaverage)
+* [getSum](_lib_average_.md#const-getsum)
 
-## Functions
+### blablabla Functions
+
+* [getLost](_lib_average_.md#const-getlost)
+
+## arithmetic Functions
 
 ### `Const` getAverage
 
 ▸ **getAverage**(`x`: number, `y`: number): *number*
 
-*Defined in [lib/average.ts:49](https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/lib/average.ts#L49)*
+*Defined in [lib/average.ts:15](https://github.com/hemlata-pathak/typedoc-demo/blob/53b49fa/src/lib/average.ts#L15)*
 
-The summary section should be brief. On a documentation web site,
-it will be shown on a page that lists summaries for many different
-API items.  On a detail page for a single item, the summary will be
-shown followed by the remarks section (if any).
+Returns the average of two numbers.
 
-**`remarks`** 
-
-The main documentation for an API item is separated into a brief
-"summary" section optionally followed by an `@remarks` block containing
-additional details.
-
-Unlike the summary, the remarks block may contain lengthy documentation
-content.  The remarks should not restate information from the summary,
-since the summary section will always be displayed wherever the remarks
-section appears.  Other sections (e.g. an `@example` block) if shown
-will usually appear after the remarks section.
-
-Code samples can be enclosed in a Markdown code fence:
+**`example`** 
+This is the code sample:
 ```ts
 function getAverage(x, y) {
   return (x + y) / 2.0;
 }
 ```
 
-If you use special symbols and don't want to use a code span, you can
-escape them using backslashes:  \{\@inheritDoc Button.render\}
+**Parameters:**
 
-**`samplecustomblocktag`** 
+Name | Type |
+------ | ------ |
+`x` | number |
+`y` | number |
 
-You can define your own custom block tags and tell the parser about them.
-The playground doesn't render this block, but your own tooling could do that.
+**Returns:** *number*
 
-**`privateremarks`** 
+___
 
-The `@privateRemarks` tag starts a block of additional commentary that is not meant
-for an external audience.  A documentation tool must omit this content from an
-API reference web site.  It should also be omitted when generating a normalized
-*.d.ts file.
+### `Const` getSum
 
-Modifiers look like block tags, but they do not start a documentation block.
-For example this `@sealed` tag tells us that nobody should inherit from the
-class.  But if text appeared after it, that text would get attached to the
-previous block.
+▸ **getSum**(`x`: number, `y`: number): *number*
 
-**`sealed`** 
+*Defined in [lib/average.ts:33](https://github.com/hemlata-pathak/typedoc-demo/blob/53b49fa/src/lib/average.ts#L33)*
+
+Returns the sum of two numbers.
+
+**`example`** 
+This is the code sample:
+```ts
+function getSum(x, y) {
+  return x+y
+}
+```
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`x` | number |
+`y` | number |
+
+**Returns:** *number*
+
+___
+
+## blablabla Functions
+
+### `Const` getLost
+
+▸ **getLost**(`x`: number, `y`: number): *number*
+
+*Defined in [lib/average.ts:51](https://github.com/hemlata-pathak/typedoc-demo/blob/53b49fa/src/lib/average.ts#L51)*
+
+Returns bla bla bla.
+
+**`example`** 
+This is the code sample:
+```ts
+function getLost(x, y) {
+  return x+y
+}
+```
 
 **Parameters:**
 

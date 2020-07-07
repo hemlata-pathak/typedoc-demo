@@ -1,11 +1,11 @@
-[tsdoc-demo](globals.md)
+[Types Doc Demo](globals.md)
 
-# tsdoc-demo
+# Types Doc Demo
 
 ## Index
 
 ### Modules
 
 * ["components/App"](modules/_components_app_.md)
-* ["components/index"](modules/_components_index_.md)
 * ["lib/average"](modules/_lib_average_.md)
+* ["lib/square"](modules/_lib_square_.md)

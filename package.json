@@ -7,8 +7,8 @@
     "start": "webpack-dev-server --open",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "./node_modules/.bin/typedoc",
-    "docs-html": "./node_modules/.bin/typedoc --plugin none"
+    "docs": "./node_modules/.bin/typedoc --plugin typedoc-plugin-markdown",
+    "docs-html": "./node_modules/.bin/typedoc"
   },
   "keywords": [],
   "author": "",
