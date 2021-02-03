@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;lib/average&quot; | tsdoc-demo</title>
-	<meta name="description" content="Documentation for tsdoc-demo">
+	<title>&quot;lib/average&quot; | Types Doc Demo</title>
+	<meta name="description" content="Documentation for Types Doc Demo">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">tsdoc-demo</a>
+					<a href="../index.html" class="title">Types Doc Demo</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -71,16 +71,21 @@
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Functions</h3>
+							<h3>arithmetic Functions</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_lib_average_.html#getaverage" class="tsd-kind-icon">get<wbr>Average</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_lib_average_.html#getsum" class="tsd-kind-icon">get<wbr>Sum</a></li>
+							</ul>
+							<h3>blablabla Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_lib_average_.html#getlost" class="tsd-kind-icon">get<wbr>Lost</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Functions</h2>
+				<h2>arithmetic Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="getaverage" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagConst">Const</span> get<wbr>Average</h3>
@@ -91,49 +96,101 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/hemlata-pathak/typedoc-demo/blob/fdf07e1/src/lib/average.ts#L49">lib/average.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/hemlata-pathak/typedoc-demo/blob/b96bcfc/src/lib/average.ts#L15">lib/average.ts:15</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>The summary section should be brief. On a documentation web site,
-										it will be shown on a page that lists summaries for many different
-										API items.  On a detail page for a single item, the summary will be
-									shown followed by the remarks section (if any).</p>
+									<p>Returns the average of two numbers.</p>
 								</div>
 								<dl class="tsd-comment-tags">
-									<dt>remarks</dt>
-									<dd><p>The main documentation for an API item is separated into a brief
-											&quot;summary&quot; section optionally followed by an <code>@remarks</code> block containing
-										additional details.</p>
-										<p>Unlike the summary, the remarks block may contain lengthy documentation
-											content.  The remarks should not restate information from the summary,
-											since the summary section will always be displayed wherever the remarks
-											section appears.  Other sections (e.g. an <code>@example</code> block) if shown
-										will usually appear after the remarks section.</p>
-										<p>Code samples can be enclosed in a Markdown code fence:</p>
+									<dt>example</dt>
+									<dd><p>This is the code sample:</p>
 										<pre><code class="language-ts"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getAverage</span>(<span class="hljs-params">x, y</span>) </span>{
   <span class="hljs-keyword">return</span> (x + y) / <span class="hljs-number">2.0</span>;
 }</code></pre>
-										<p>If you use special symbols and don&#39;t want to use a code span, you can
-										escape them using backslashes:  {@inheritDoc Button.render}</p>
 									</dd>
-									<dt>samplecustomblocktag</dt>
-									<dd><p>You can define your own custom block tags and tell the parser about them.
-										The playground doesn&#39;t render this block, but your own tooling could do that.</p>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>x: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>y: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getsum" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> get<wbr>Sum</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Sum<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/hemlata-pathak/typedoc-demo/blob/b96bcfc/src/lib/average.ts#L33">lib/average.ts:33</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the sum of two numbers.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>This is the code sample:</p>
+										<pre><code class="language-ts"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getSum</span>(<span class="hljs-params">x, y</span>) </span>{
+  <span class="hljs-keyword">return</span> x+y
+}</code></pre>
 									</dd>
-									<dt>privateremarks</dt>
-									<dd><p>The <code>@privateRemarks</code> tag starts a block of additional commentary that is not meant
-											for an external audience.  A documentation tool must omit this content from an
-											API reference web site.  It should also be omitted when generating a normalized
-										*.d.ts file.</p>
-										<p>Modifiers look like block tags, but they do not start a documentation block.
-											For example this <code>@sealed</code> tag tells us that nobody should inherit from the
-											class.  But if text appeared after it, that text would get attached to the
-										previous block.</p>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>x: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>y: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>blablabla Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getlost" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> get<wbr>Lost</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Lost<span class="tsd-signature-symbol">(</span>x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/hemlata-pathak/typedoc-demo/blob/b96bcfc/src/lib/average.ts#L51">lib/average.ts:51</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns bla bla bla.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>This is the code sample:</p>
+										<pre><code class="language-ts"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getLost</span>(<span class="hljs-params">x, y</span>) </span>{
+  <span class="hljs-keyword">return</span> x+y
+}</code></pre>
 									</dd>
-									<dt>sealed</dt>
-									<dd></dd>
 								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -163,12 +220,21 @@
 					<li class="current tsd-kind-module">
 						<a href="_lib_average_.html">&quot;lib/average&quot;</a>
 					</li>
+					<li class=" tsd-kind-module">
+						<a href="_lib_square_.html">&quot;lib/square&quot;</a>
+					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="_lib_average_.html#getaverage" class="tsd-kind-icon">get<wbr>Average</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_lib_average_.html#getlost" class="tsd-kind-icon">get<wbr>Lost</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_lib_average_.html#getsum" class="tsd-kind-icon">get<wbr>Sum</a>
 					</li>
 				</ul>
 			</nav>

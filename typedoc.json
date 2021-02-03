@@ -2,7 +2,8 @@
     "name": "Types Doc Demo",
     "inputFiles": ["./src"],
     "mode": "modules",
-    "out": "docs",
+    "out": "docs-html",
+    "plugin": "none",
     "exclude": "**/*+(index|.spec|.e2e).tsx",
     "includes": [
       "src/components/*.tsx",
